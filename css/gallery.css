@@ -1,0 +1,29 @@
+.gallery {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery__list-item {
+    flex-basis: 30%;
+    margin: 10px;
+}
+
+@media (orientation: portrait) and (max-width: 767px) {
+    .gallery__list-item {
+        flex-basis: 100%;
+    }
+}
+
+.gallery__image {
+    height: 30vh;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.8;
+    transition: .2s;
+}
+
+.gallery__image:hover {
+    opacity: 1;
+}

@@ -1,0 +1,38 @@
+.container {
+  width: 1024px;
+  margin: auto;
+  max-width: 100%;
+  padding: 60px 20px;
+  background-color: #fff8ee;
+}
+.container2 {
+  width: 1024px;
+  margin: auto;
+  max-width: 100%;
+  padding: 60px 20px;
+  background-color: #fff8ee;
+}
+
+.container__paragraph {
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.container__h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 50px auto;
+}
+.container__h2-white {
+  color: white;
+}
+.container__h2-orange {
+  color: white;
+  background-color: #fe9920;
+  margin: 50px auto;
+}
